@@ -13,7 +13,7 @@
 
 <body>
     <div id="app">
-        <ul>
+        <ul v-if=" !charged ">
             <li v-for="mail in mails"> {{ mail }} </li>
         </ul>
     </div>
